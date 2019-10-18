@@ -1,0 +1,53 @@
+{
+  "name": "WEB_jamstack_2019",
+  "private": true,
+  "description": "A white label e-commerce",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "GATSBY_GRAPHQL_IDE=playground gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-brands-svg-icons": "^5.11.2",
+    "@fortawesome/free-regular-svg-icons": "^5.11.2",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.5",
+    "bootstrap": "^4.3.1",
+    "gatsby": "^2.15.29",
+    "gatsby-plugin-netlify-cms": "^4.1.22",
+    "gatsby-plugin-nprogress": "^2.1.12",
+    "gatsby-plugin-react-helmet": "^3.1.10",
+    "gatsby-plugin-sharp": "^2.2.28",
+    "gatsby-plugin-snipcart": "^1.1.2",
+    "gatsby-remark-copy-linked-files": "^2.1.24",
+    "gatsby-remark-images": "^3.1.28",
+    "gatsby-remark-relative-images": "^0.2.3",
+    "gatsby-source-filesystem": "^2.1.29",
+    "gatsby-transformer-remark": "^2.6.27",
+    "gatsby-transformer-sharp": "^2.2.20",
+    "netlify-cms-app": "^2.9.7",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-helmet": "^5.2.1",
+    "react-icons": "^3.7.0",
+    "react-share": "^3.0.1",
+    "reactstrap": "^8.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2",
+    "react-social-icons": "^4.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/julesbozouklian/gatsby_test"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}

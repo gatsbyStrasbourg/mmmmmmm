@@ -1,0 +1,1 @@
+Access-Control-Allow-Origin: https://app.snipcart.com/api/sessions

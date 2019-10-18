@@ -1,0 +1,25 @@
+backend:
+  name: github
+  repo: julesbozouklian/gatsby_test
+
+publish_mode: editorial_workflow
+
+media_folder: static/assets
+public_folder: assets
+
+collections:
+  - name: articles
+    label: Articles
+    folder: content/articles
+    create: true
+    fields:
+      - { name: title, label: Title, required: true }
+      - { name: id, label: Product ID, widget: number, required: true }
+      - { name: category, label: Category, required: true }
+      - { name: price, label: Price, widget: number, required: true }
+      - { name: image, label: Image, widget: list, default: "/assets/default.png", required: false }
+      - { name: description, label: Description, widget: text, required: true }
+      - { name: slug, label: Url, widget: string, default: "/"}
+      - { name: currency, label: Currency, widget: select, options: ["€", "$", "£"] }
+      - { name: important, label: Important, widget: boolean, default: false }
+

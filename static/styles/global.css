@@ -1,0 +1,34 @@
+/* global */
+.topPadForm {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.topTitle {
+    padding-top: 2rem;
+}
+/* end */
+
+/* contact.js */
+.listContact {
+    padding-bottom: 2rem;
+}
+/* end */
+
+
+/* articlesTemplates.js */
+.topProduct {
+    padding-top: 3rem;
+}
+
+.padLeft {
+    padding-left: 1rem;
+}
+/* end */
+
+/* rgpd.js */
+.subtitle {
+    color: #808080;
+    font-style: italic;
+}
+/* end */

@@ -1,0 +1,18 @@
+.cardMargin {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.cardMargin:hover {
+    margin-top: 3px;
+    text-decoration: none;
+}
+
+.cardText {
+    text-decoration: none !important;
+}
+
+.heightCard {
+    width: 100%;
+}
+
